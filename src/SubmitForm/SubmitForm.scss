@@ -1,0 +1,26 @@
+.form {
+  display: grid;
+  grid-template-columns: 18.5rem 18.5rem auto;
+  height: 2.6rem;
+  gap: 0.6rem;
+  margin-bottom: 1.4rem;
+
+  &__input {
+    width: 100%;
+    height: 2.6rem;
+    border: 1px solid #22577a;
+    padding-left: 0.6rem;
+  }
+
+  &__send {
+    border: none;
+    background-color: #22577a;
+    color: #f2e9e4;
+    cursor: pointer;
+  }
+
+  &__input,
+  &__send {
+    border-radius: 0.5rem;
+  }
+}

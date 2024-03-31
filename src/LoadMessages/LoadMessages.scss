@@ -1,0 +1,83 @@
+.loadMessages {
+  width: 27rem;
+  margin: 0 auto;
+  border-radius: 30px;
+  display: grid;
+  grid-template-rows: 2rem 8rem 2rem;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 0.75rem;
+  color: #f2e9e4;
+  background-color: #22577a;
+  position: relative;
+  align-items: center;
+
+  &__from {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.4rem;
+  }
+
+  &__from,
+  &__message {
+    padding-left: 1.4rem;
+  }
+
+  &__message {
+    font-size: 1.2rem;
+  }
+
+  &__timesent {
+    text-align: end;
+    padding-right: 1.4rem;
+  }
+
+  &__delete {
+    position: absolute;
+    right: -0.6rem;
+    top: -0.6rem;
+    padding: 0.7rem 0.9rem;
+    border-radius: 100%;
+    border: none;
+    background-color: #57cc99;
+    cursor: pointer;
+  }
+}
+
+.latestMessages {
+  grid-row: 1 / 2;
+  width: 12rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #22577a;
+  color: #f2e9e4;
+  cursor: pointer;
+}
+
+.loadMessagesAlt {
+  width: 27rem;
+  margin: 0 24%;
+  background-color: #57cc99;
+  border-radius: 30px;
+  display: grid;
+  grid-template-rows: 2rem 8rem 2rem;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 0.75rem;
+  color: black;
+  position: relative;
+  align-items: center;
+}
+
+.deleteAlt {
+  position: absolute;
+  right: -0.6rem;
+  top: -0.6rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: 100%;
+  border: none;
+  background-color: #22577a;
+  color: #f2e9e4;
+  cursor: pointer;
+}
